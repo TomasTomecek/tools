@@ -4,8 +4,9 @@
 #  * testing an image present in registry in current environment (set pull to true)
 #  * testing an image present in registry inside a VM (set pull and vm_image variables)
 ---
-- hosts: localhost
-  vars:
+# TODO: create new playbook for run in VM
+# this playbook should run locally
+- vars:
     # path to the VM image to use
     # "" means to run in current environment
     vm_image: ""
